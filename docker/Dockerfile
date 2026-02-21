@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/mssql/server:2022-latest
 
 # Set required environment variables
 ENV ACCEPT_EULA=Y
-# Password is passed at runtime for securitydocker exec -it grocery-db /opt/mssql-tools18/bin/sqlcmd -S localhost -U SA -P "Project_002FINC"
+# Password is passed at runtime for security
 
 # Set working directory inside the container
 WORKDIR /usr/src/app
