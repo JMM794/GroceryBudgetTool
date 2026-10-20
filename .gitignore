@@ -1,0 +1,6 @@
+data/raw_pdfs/
+data/Archive/
+.env
+*.pyc
+__pycache__/
+docker/traces-*.json
